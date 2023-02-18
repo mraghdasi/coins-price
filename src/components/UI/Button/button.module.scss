@@ -1,0 +1,42 @@
+.btn {
+  display: flex;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 22px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+/* size */
+.btn--normal {
+  padding: 10px 16px;
+}
+
+.btn--small {
+  padding: 5px 11px;
+}
+
+/* color */
+.btn--primary {
+  background-color: var(--z-button-primary);
+  color: var(--z-white);
+
+  &:hover {
+    background-color: var(--z-button-primary-hover);
+  }
+}
+
+.btn--transparent {
+  background-color: transparent;
+  color: var(--z-white);
+
+  &:hover {
+    background-color: transparent;
+  }
+}

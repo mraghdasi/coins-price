@@ -1,0 +1,58 @@
+:root {
+  --z-text-color: #000;
+  --z-text-secondary-color: #637381;
+  --z-primary-color: #006349;
+  --z-primary-color-hover: #0d8465;
+  --z-white: #ffffff;
+  --z-gray-light: #0000001a;
+  --z-orange: #ffc800;
+  --z-gray: #7b808c;
+  --z-gray-hover: #6b717e;
+  --z-success: #00b785;
+  --z-red: #ff5a5a;
+  --z-blue: #0cafc6;
+  --z-blue-2: #5BF7FF;
+  --z-success-hover: #069f75;
+  --z-text-color-fixed: #000;
+  --z-spinner-bg: #6b717e66;
+  --z-header-footer-bg: var(--z-white);
+  --z-body-bg: #f3f4f4;
+  --z-modal-bg: var(--z-white);
+  --z-input-bg: var(--z-white);
+  --z-input-color: #616161;
+  --z-input-border: var(--z-primary-color);
+  --z-button-primary: var(--z-primary-color);
+  --z-button-primary-hover: var(--z-primary-color-hover);
+  --z-blog-header-bg: #ffffffcc;
+  --z-border-color: #b8b8b8;
+  --z-card-bg: #fff;
+  --z-body-header-bg: #fff;
+  --z-sort-filter-bg: #fff;
+  --z-search-filter-bg: #F4F5F7;
+  --z-sort-filter-hover-bg: #d8d8d8;
+  --z-sort-filter-active-bg: var(--z-primary-color);
+  --z-backdrop: #000e358a;
+}
+
+[data-theme='dark'] {
+  --z-text-color: #f2f4f7;
+  --z-text-secondary-color: #98a2b3;
+  --z-gray: #bdbdbd;
+  --z-body-bg: #1d2939;
+  --z-modal-bg: #324c6f;
+  --z-header-footer-bg: #344054;
+  --z-gray-light: #ffffff4d;
+  --z-button-primary: var(--z-success);
+  --z-button-primary-hover: var(--z-success-hover);
+  --z-input-bg: transparent;
+  --z-input-border: var(--z-white);
+  --z-input-color: var(--z-white);
+  --z-blog-header-bg: #1d2939cc;
+  --z-body-header-bg: #101828;
+  --z-card-bg: #344054;
+  --z-border-color: #637381;
+  --z-sort-filter-bg: #344054;
+  --z-search-filter-bg: #4e5a6f;
+  --z-sort-filter-hover-bg: var(--z-gray-hover);
+  --z-sort-filter-active-bg: var(--z-success);
+}
